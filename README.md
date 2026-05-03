@@ -1,6 +1,8 @@
+
 <p align="center">
-  <img src="https://img.shields.io/badge/🗳️-CivicTrust-1E293B?style=for-the-badge&labelColor=2563EB&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI+PHBhdGggZD0iTTIwIDEyVjIySDE0Ii8+PHBhdGggZD0iTTIwIDEyTDEyIDRMNCAxMiIvPjwvc3ZnPg==" alt="CivicTrust Logo" />
+  <img src="https://github.com/user-attachments/assets/6d50d991-62a0-4395-bb83-b059b02906bb" alt="CivicTrust Banner" width="100%" />
 </p>
+
 
 <h1 align="center">🗳️ CivicTrust — Secure Your Vote. Track Your Impact.</h1>
 
@@ -12,26 +14,97 @@
   Built with React • TypeScript • Firebase • Gemini AI • Tailwind CSS • Cloud Run
 </p>
 
+---
+
 <p align="center">
-  <a href="https://civictrust-735054811257.us-central1.run.app"><img src="https://img.shields.io/badge/🌐_Live_Demo-Click_Here-2563EB?style=for-the-badge" alt="Live Demo" /></a>
-  <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="MIT License" />
-  <img src="https://img.shields.io/badge/Node.js-20+-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js" />
-  <img src="https://img.shields.io/badge/TypeScript-5.8-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Status-Production-2563EB?style=for-the-badge&logoColor=white&color=2563EB"/>
+  <img src="https://img.shields.io/badge/AI-Gemini_2.0-2563EB?style=for-the-badge&logoColor=white&color=2563EB"/>
+  <img src="https://img.shields.io/badge/Stack-React+TypeScript-2563EB?style=for-the-badge&logoColor=white&color=2563EB"/>
+  <img src="https://img.shields.io/badge/Backend-Firebase-2563EB?style=for-the-badge&logoColor=white&color=2563EB"/>
+  <img src="https://img.shields.io/badge/Cloud-GCP_Run-2563EB?style=for-the-badge&logoColor=white&color=2563EB"/>
+  <img src="https://img.shields.io/badge/License-MIT-2563EB?style=for-the-badge&logoColor=white&color=2563EB"/>
 </p>
 
 <p align="center">
-  🇮🇳 India (ECI)&nbsp;&nbsp;•&nbsp;&nbsp;🇺🇸 United States (Federal & State)
+  <a href="https://civictrust-735054811257.us-central1.run.app">
+    <img src="https://img.shields.io/badge/🌐_Live_Demo-Open_App-FFFFFF?style=for-the-badge&logoColor=2563EB&color=2563EB"/>
+  </a>
 </p>
+
+---
+
+## 🧠 What is CivicTrust?
+
+**CivicTrust is an AI-powered voter companion** that guides citizens through every step of the election journey — from registration to results.
+
+It removes confusion, fights misinformation, and helps people **actually participate in democracy with confidence.**
+
 
 ---
 
 ## ⚡ Why CivicTrust
 
-🗳️ Personalized Voter Guide &nbsp;&nbsp;•&nbsp;&nbsp; 🛡️ ID Verification &nbsp;&nbsp;•&nbsp;&nbsp; 🤖 AI Myth-Buster &nbsp;&nbsp;•&nbsp;&nbsp; 📅 Election Timeline &nbsp;&nbsp;•&nbsp;&nbsp; 📊 Live Results Dashboard
+🗳️ Personalized Voter Guide &nbsp;&nbsp;
+
+•&nbsp;&nbsp; 🛡️ ID Verification &nbsp;&nbsp;
+
+•&nbsp;&nbsp; 🤖 AI Myth-Buster &nbsp;&nbsp;
+
+•&nbsp;&nbsp; 📅 Election Timeline &nbsp;&nbsp;
+
+•&nbsp;&nbsp; 📊 Live Results Dashboard
+
+---
+
+## 🎥 Project Preview
+
+<h2 align="center">📸 Product Preview</h2>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/de5763b5-6651-4d53-aee3-e6e5c508861a" width="90%" />
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/46c78e75-5872-4caa-8da6-d762f73e0ba4" width="45%" />
+  <img src="https://github.com/user-attachments/assets/f11b40ae-c04d-428d-bc14-85c62e13fe4f" width="45%" />
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/ee0de4ba-727e-4223-9630-325b1b6280d4" width="60%" />
+</p>
+
+
+---
+
+## ⚖️ Overview
+
+**CivicTrust** is a full-stack, AI-powered voter assistance platform designed to guide citizens through every stage of the democratic process — from voter registration verification to casting their ballot. Built as a single-page React application with a TypeScript Express backend, it supports multi-jurisdiction workflows for **India** and the **United States**.
+
+**Target users:** First-time voters, senior citizens, civic organizations, and anyone who wants a clear, trustworthy guide through election season.
+
+---
+
+## ⚡ Why This Project Exists
+
+Modern elections have a serious usability problem:
+
+- People **miss deadlines**
+- First-time voters feel **lost**
+- Misinformation spreads faster than facts
+- Critical information is **fragmented across websites**
+
+### CivicTrust solves this by:
+
+✔ Turning elections into a **guided journey**  
+✔ Using AI to **fact-check in real time**  
+✔ Centralizing everything in **one clean interface**  
+✔ Making civic participation **simple, trackable, and engaging**
 
 ---
 
 ## 🎯 Built for Real Civic Engagement
+
+---
 
 | Problem | Solution |
 |---|---|
@@ -45,6 +118,8 @@
 
 ## 📊 Platform Snapshot
 
+---
+
 | Metric | Value |
 |---|---|
 | 🗳️ Core Modules | 10+ (Dashboard, MythBuster, Simulation, Timeline, Results, Help Center, etc.) |
@@ -57,15 +132,9 @@
 
 ---
 
-## ⚖️ Overview
-
-**CivicTrust** is a full-stack, AI-powered voter assistance platform designed to guide citizens through every stage of the democratic process — from voter registration verification to casting their ballot. Built as a single-page React application with a TypeScript Express backend, it supports multi-jurisdiction workflows for **India** and the **United States**.
-
-**Target users:** First-time voters, senior citizens, civic organizations, and anyone who wants a clear, trustworthy guide through election season.
+## ✨ What Makes CivicTrust Different
 
 ---
-
-## ✨ What Makes CivicTrust Different
 
 - 🗳️ **Civic-first AI** — Not generic LLM output; tuned specifically for election law, voter rights, and registration procedures
 - ⚡ **Personalized Journey** — Country-specific step-by-step checklist (EPIC for India, mail-in ballots for US) auto-generated at onboarding
@@ -78,6 +147,8 @@
 
 ## 🤖 AI Capabilities
 
+---
+
 | Feature | Description |
 |---|---|
 | **Myth-Buster Engine** | Real-time Q&A powered by Gemini 2.0 Flash with civic-specific system instructions |
@@ -89,12 +160,22 @@
 
 ## 🗳️ Platform Features
 
+---
+
 ### 🏠 Landing Page
+
+---
+
 - Hero section with animated call-to-action
 - Three-pillar value proposition (Verify → Practice → Track)
 - Google Sign-In / Guest onboarding flow
 
+---
+
 ### 📋 Onboarding Flow (7 Steps)
+
+---
+
 1. **Jurisdiction Selection** — India 🇮🇳 or United States 🇺🇸
 2. **Age Cohort** — 18-25 / 26-60 / 60+ (for targeted outreach)
 3. **Registration Status** — EPIC card (India) / Voter enrollment (US)
@@ -103,7 +184,12 @@
 6. **Civic Interests** — Environment, Education, Economy, Healthcare, Tech & AI, Civic Rights
 7. **Confirmation & Google Auth** — Secure profile creation
 
+---
+
 ### 📊 Dashboard
+
+---
+
 - **Voter Journey Widget** — Interactive checklist with progress tracking and point rewards
 - **Civic Score Card** — Gamified readiness score with level badges
 - **Representatives Panel** — Federal, State, and Local representatives for your district
@@ -111,44 +197,79 @@
 - **Smart Alerts** — Deadline notifications and registration reminders
 - **Quick Tools Grid** — One-tap access to MythBuster, Simulation, Timeline, Help Center, Results
 
+---
+
 ### 📅 Election Timeline
+
+---
+
 - Interactive timeline with federal, state, and local events
 - Color-coded event types (Deadlines, Voting Days, Informational)
 - Critical deadline indicators with countdown
 - Source attribution with official links
 - Filterable by jurisdiction level
 
+---
+
 ### 🤖 MythBuster (AI Chat)
+
+---
+
 - Gemini-powered conversational AI for election myths
 - Suggested starter questions
 - Real-time streaming responses
 - Chat history persistence within session
 
+---
+
 ### 🗳️ Ballot Simulation
+
+---
+
 - Practice ballot marking experience
 - EVM/VVPAT simulation for Indian voters
 - Sample candidate roster with party information
 - Vote confirmation flow
 
+---
+
 ### ❓ Help Center
+
+---
+
 - Searchable FAQ database
 - Country-specific help topics
 - Emergency election contacts
 - Accessibility resources
 
+---
+
 ### 📈 Results Dashboard
+
+---
+
 - Interactive charts (Bar, Line, Pie) powered by Recharts
 - Historical election data visualization
 - Constituency-wise breakdowns
 - Real-time result tracking interface
 
+---
+
 ### 🛡️ Verification Flow
+
+---
+
 - **Manual ID Verification** — Enter Voter ID / PAN Card number
 - **DigiLocker Integration** (India) — Direct government database verification
 - **DMV Mobile Verification** (US) — State-issued ID validation
 - Verification badge and timestamp on profile
 
+---
+
 ### ⚙️ Settings Panel
+
+---
+
 - Profile management and data editing
 - Widget layout customization (drag-to-reorder dashboard)
 - Notification preferences (Push & Email)
@@ -156,16 +277,27 @@
 - Compact view toggle
 - Account data export / wipe
 
+---
+
 ### 🔍 Global Search
+
+---
+
 - Instant search across all app screens and features
 - Keyboard shortcut support
 - Context-aware results with navigation
+
 
 ---
 
 ## 🏗️ Tech Stack
 
+---
+
+
 ### Frontend
+
+
 | Technology | Purpose |
 |---|---|
 | [React 19](https://react.dev) | UI component library |
@@ -175,14 +307,20 @@
 | [Recharts](https://recharts.org) | Data visualization (Bar, Line, Pie charts) |
 | [Lucide React](https://lucide.dev) | 50+ icon components |
 
+
 ### Backend
+
+
 | Technology | Purpose |
 |---|---|
 | [Express.js](https://expressjs.com) | HTTP server with API routes |
 | [tsx](https://github.com/privatenumber/tsx) | TypeScript execution for Node.js |
 | [Vite](https://vite.dev) | Build tooling, HMR, and dev server middleware |
 
+
 ### Cloud & AI
+
+
 | Technology | Purpose |
 |---|---|
 | [Firebase Auth](https://firebase.google.com/products/auth) | Google Sign-In authentication |
@@ -190,7 +328,10 @@
 | [Google Gemini 2.0 Flash](https://ai.google.dev) | AI-powered Myth-Buster engine |
 | [Google Cloud Run](https://cloud.google.com/run) | Serverless container deployment |
 
+
 ### DevOps
+
+
 | Technology | Purpose |
 |---|---|
 | [Docker](https://docker.com) | Multi-stage containerization |
@@ -201,13 +342,21 @@
 
 ## 🎨 Design System
 
+---
+
+
 ### Typography
+
+
 | Font | Usage |
 |---|---|
 | **Inter** (400–700) | Body text, UI elements, navigation |
 | **Playfair Display** (700) | Headings, hero sections, display text |
 
+
 ### Color Palette
+
+
 | Token | Hex | Usage |
 |---|---|---|
 | `surface` | `#F8FAFC` | Page background |
@@ -218,7 +367,9 @@
 | `amber-custom` | `#92400E` | Warning states, pending items |
 | `error-custom` | `#B91C1C` | Error states, destructive actions |
 
+
 ### Custom Utilities
+
 `btn-primary` · `btn-outline` · `card` · `card-hover` · `nav-link` · `nav-cta` · `hero-eyebrow` · `summary-card` · `dot-pattern`
 
 ---
@@ -276,6 +427,8 @@ CivicTrust/
 
 ## 🔄 Application Workflow
 
+---
+
 ```mermaid
 flowchart TD
     A[🌐 Landing Page] --> B{Returning User?}
@@ -309,6 +462,8 @@ flowchart TD
 ---
 
 ## 🔥 Firestore Data Model
+
+---
 
 ```mermaid
 erDiagram
@@ -348,7 +503,10 @@ erDiagram
     TIMELINE ||--o{ USERS : "viewed by"
 ```
 
+
 ### Security Rules
+
+
 - **Default deny** — All paths blocked unless explicitly allowed
 - **Owner-only access** — Users can only read/write their own profile and steps
 - **Schema validation** — Firestore rules enforce field types, sizes, and allowed values
@@ -359,6 +517,8 @@ erDiagram
 
 ## 🔌 API Endpoints
 
+---
+
 ### Server Routes
 
 | Method | Endpoint | Description | Auth |
@@ -366,7 +526,9 @@ erDiagram
 | `GET` | `/api/health` | Health check with timestamp | ❌ None |
 | `GET` | `/*` | SPA fallback (serves `index.html`) | ❌ None |
 
+
 ### Firestore Service Layer
+
 
 | Function | Path | Description |
 |---|---|---|
@@ -377,7 +539,9 @@ erDiagram
 | `updateStepStatus(uid, stepId, status)` | `users/{uid}/steps/{stepId}` | Toggle step + award 50 points |
 | `askMythBuster(question)` | Gemini API | AI-powered election Q&A |
 
+
 ### Firebase Auth
+
 
 | Method | Description |
 |---|---|
@@ -388,6 +552,8 @@ erDiagram
 ---
 
 ## 🚀 Getting Started
+
+---
 
 ### Prerequisites
 
@@ -416,7 +582,9 @@ npm run dev
 
 The app will be available at **http://localhost:3000**
 
+
 ### Environment Variables
+
 
 Create a `.env` file in the project root:
 
@@ -428,7 +596,9 @@ GEMINI_API_KEY="your-gemini-api-key"
 APP_URL="http://localhost:3000"
 ```
 
+
 ### Firebase Configuration
+
 
 Update `firebase-applet-config.json` with your Firebase project credentials:
 
@@ -448,6 +618,8 @@ Update `firebase-applet-config.json` with your Firebase project credentials:
 
 ## 📜 Available Scripts
 
+---
+
 ```bash
 npm run dev          # Start Express + Vite dev server (HMR enabled)
 npm run build        # Build production bundle via Vite
@@ -459,6 +631,8 @@ npm run clean        # Remove dist directory
 ---
 
 ## 🐳 Docker Deployment
+
+---
 
 ### Build & Run Locally
 
@@ -512,6 +686,8 @@ CMD ["npx", "tsx", "server.ts"]
 
 ## 🛡️ Security
 
+---
+
 | Layer | Implementation |
 |---|---|
 | **Authentication** | Firebase Auth with Google OAuth 2.0 |
@@ -525,6 +701,8 @@ CMD ["npx", "tsx", "server.ts"]
 
 ## 📱 Responsive Design
 
+---
+
 CivicTrust is fully responsive across all breakpoints:
 
 | Breakpoint | Layout |
@@ -536,6 +714,8 @@ CivicTrust is fully responsive across all breakpoints:
 ---
 
 ## 🗺️ Roadmap
+
+---
 
 - [ ] **Progressive Web App (PWA)** — Offline access and push notifications
 - [ ] **Regional Language Support** — Hindi, Tamil, Telugu, Spanish translations
@@ -550,6 +730,8 @@ CivicTrust is fully responsive across all breakpoints:
 
 ## 🤝 Contributing
 
+---
+
 Contributions are welcome! Please follow these steps:
 
 1. **Fork** the repository
@@ -558,7 +740,9 @@ Contributions are welcome! Please follow these steps:
 4. **Push** to the branch (`git push origin feature/amazing-feature`)
 5. **Open** a Pull Request
 
+
 ### Contribution Guidelines
+
 
 - Follow the existing TypeScript and React patterns
 - Maintain the design system tokens (don't hardcode colors)
@@ -570,11 +754,15 @@ Contributions are welcome! Please follow these steps:
 
 ## 📄 License
 
+---
+
 This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
 
 ---
 
 ## 👨‍💻 Author
+
+---
 
 **Madhu Tiwari**
 
@@ -583,12 +771,24 @@ This project is licensed under the **MIT License** — see the [LICENSE](LICENSE
 ---
 
 <p align="center">
+  <a href="https://civictrust-735054811257.us-central1.run.app">
+    <img src="https://img.shields.io/badge/🌐_Live_Demo-Open-2563EB?style=for-the-badge&logoColor=white"/>
+  </a>
+  <a href="#-getting-started">
+    <img src="https://img.shields.io/badge/🚀_Getting_Started-Guide-2563EB?style=for-the-badge&logoColor=white"/>
+  </a>
+  <a href="#-api-endpoints">
+    <img src="https://img.shields.io/badge/📡_API-Docs-2563EB?style=for-the-badge&logoColor=white"/>
+  </a>
+  <a href="#-contributing">
+    <img src="https://img.shields.io/badge/🤝_Contributing-Open-2563EB?style=for-the-badge&logoColor=white"/>
+  </a>
+</p>
+
+---
+
+<p align="center">
   <strong>🗳️ Democracy works best when every citizen is prepared. CivicTrust makes that possible. 🗳️</strong>
 </p>
 
-<p align="center">
-  <a href="https://civictrust-735054811257.us-central1.run.app">Live Demo</a> •
-  <a href="#-getting-started">Getting Started</a> •
-  <a href="#-api-endpoints">API Reference</a> •
-  <a href="#-contributing">Contributing</a>
-</p>
+---
