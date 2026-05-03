@@ -1,6 +1,8 @@
+
 <p align="center">
-  <img src="https://img.shields.io/badge/🗳️-CivicTrust-1E293B?style=for-the-badge&labelColor=2563EB&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI+PHBhdGggZD0iTTIwIDEyVjIySDE0Ii8+PHBhdGggZD0iTTIwIDEyTDEyIDRMNCAxMiIvPjwvc3ZnPg==" alt="CivicTrust Logo" />
+  <img src="https://github.com/user-attachments/assets/6d50d991-62a0-4395-bb83-b059b02906bb" alt="CivicTrust Banner" width="100%" />
 </p>
+
 
 <h1 align="center">🗳️ CivicTrust — Secure Your Vote. Track Your Impact.</h1>
 
@@ -12,22 +14,87 @@
   Built with React • TypeScript • Firebase • Gemini AI • Tailwind CSS • Cloud Run
 </p>
 
+---
+
 <p align="center">
-  <a href="https://civictrust-735054811257.us-central1.run.app"><img src="https://img.shields.io/badge/🌐_Live_Demo-Click_Here-2563EB?style=for-the-badge" alt="Live Demo" /></a>
-  <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="MIT License" />
-  <img src="https://img.shields.io/badge/Node.js-20+-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js" />
-  <img src="https://img.shields.io/badge/TypeScript-5.8-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Status-Production-2563EB?style=for-the-badge&logoColor=white&color=2563EB"/>
+  <img src="https://img.shields.io/badge/AI-Gemini_2.0-2563EB?style=for-the-badge&logoColor=white&color=2563EB"/>
+  <img src="https://img.shields.io/badge/Stack-React+TypeScript-2563EB?style=for-the-badge&logoColor=white&color=2563EB"/>
+  <img src="https://img.shields.io/badge/Backend-Firebase-2563EB?style=for-the-badge&logoColor=white&color=2563EB"/>
+  <img src="https://img.shields.io/badge/Cloud-GCP_Run-2563EB?style=for-the-badge&logoColor=white&color=2563EB"/>
+  <img src="https://img.shields.io/badge/License-MIT-2563EB?style=for-the-badge&logoColor=white&color=2563EB"/>
 </p>
 
 <p align="center">
-  🇮🇳 India (ECI)&nbsp;&nbsp;•&nbsp;&nbsp;🇺🇸 United States (Federal & State)
+  <a href="https://civictrust-735054811257.us-central1.run.app">
+    <img src="https://img.shields.io/badge/🌐_Live_Demo-Open_App-FFFFFF?style=for-the-badge&logoColor=2563EB&color=2563EB"/>
+  </a>
 </p>
+
+---
+
+## 🧠 What is CivicTrust?
+
+**CivicTrust is an AI-powered voter companion** that guides citizens through every step of the election journey — from registration to results.
+
+It removes confusion, fights misinformation, and helps people **actually participate in democracy with confidence.**
+
 
 ---
 
 ## ⚡ Why CivicTrust
 
-🗳️ Personalized Voter Guide &nbsp;&nbsp;•&nbsp;&nbsp; 🛡️ ID Verification &nbsp;&nbsp;•&nbsp;&nbsp; 🤖 AI Myth-Buster &nbsp;&nbsp;•&nbsp;&nbsp; 📅 Election Timeline &nbsp;&nbsp;•&nbsp;&nbsp; 📊 Live Results Dashboard
+🗳️ Personalized Voter Guide &nbsp;&nbsp;•&nbsp;&nbsp; 
+🛡️ ID Verification &nbsp;&nbsp;•&nbsp;&nbsp; 
+🤖 AI Myth-Buster &nbsp;&nbsp;•&nbsp;&nbsp; 
+📅 Election Timeline &nbsp;&nbsp;•&nbsp;&nbsp; 
+📊 Live Results Dashboard
+
+---
+
+## 🎥 Project Preview
+
+<h2 align="center">📸 Product Preview</h2>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/de5763b5-6651-4d53-aee3-e6e5c508861a" width="90%" />
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/46c78e75-5872-4caa-8da6-d762f73e0ba4" width="45%" />
+  <img src="https://github.com/user-attachments/assets/f11b40ae-c04d-428d-bc14-85c62e13fe4f" width="45%" />
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/ee0de4ba-727e-4223-9630-325b1b6280d4" width="60%" />
+</p>
+
+
+---
+
+## ⚖️ Overview
+
+**CivicTrust** is a full-stack, AI-powered voter assistance platform designed to guide citizens through every stage of the democratic process — from voter registration verification to casting their ballot. Built as a single-page React application with a TypeScript Express backend, it supports multi-jurisdiction workflows for **India** and the **United States**.
+
+**Target users:** First-time voters, senior citizens, civic organizations, and anyone who wants a clear, trustworthy guide through election season.
+
+---
+
+## ⚡ Why This Project Exists
+
+Modern elections have a serious usability problem:
+
+- People **miss deadlines**
+- First-time voters feel **lost**
+- Misinformation spreads faster than facts
+- Critical information is **fragmented across websites**
+
+### CivicTrust solves this by:
+
+✔ Turning elections into a **guided journey**  
+✔ Using AI to **fact-check in real time**  
+✔ Centralizing everything in **one clean interface**  
+✔ Making civic participation **simple, trackable, and engaging**
 
 ---
 
@@ -54,14 +121,6 @@
 | 💾 Database | Cloud Firestore with per-user data scoping |
 | ☁️ Deployment | Google Cloud Run (Dockerized) |
 | 🎨 Design System | Custom Tailwind v4 with Inter + Playfair Display typography |
-
----
-
-## ⚖️ Overview
-
-**CivicTrust** is a full-stack, AI-powered voter assistance platform designed to guide citizens through every stage of the democratic process — from voter registration verification to casting their ballot. Built as a single-page React application with a TypeScript Express backend, it supports multi-jurisdiction workflows for **India** and the **United States**.
-
-**Target users:** First-time voters, senior citizens, civic organizations, and anyone who wants a clear, trustworthy guide through election season.
 
 ---
 
@@ -161,7 +220,9 @@
 - Keyboard shortcut support
 - Context-aware results with navigation
 
+
 ---
+
 
 ## 🏗️ Tech Stack
 
