@@ -104,6 +104,8 @@ Modern elections have a serious usability problem:
 
 ## 🎯 Built for Real Civic Engagement
 
+---
+
 | Problem | Solution |
 |---|---|
 | ❌ Voters miss critical registration deadlines | ✅ Automated jurisdiction-specific step tracking with due dates |
@@ -115,6 +117,8 @@ Modern elections have a serious usability problem:
 ---
 
 ## 📊 Platform Snapshot
+
+---
 
 | Metric | Value |
 |---|---|
@@ -130,6 +134,8 @@ Modern elections have a serious usability problem:
 
 ## ✨ What Makes CivicTrust Different
 
+---
+
 - 🗳️ **Civic-first AI** — Not generic LLM output; tuned specifically for election law, voter rights, and registration procedures
 - ⚡ **Personalized Journey** — Country-specific step-by-step checklist (EPIC for India, mail-in ballots for US) auto-generated at onboarding
 - 🧠 **AI Myth-Buster** — Ask any election question and get fact-checked, neutral, source-backed answers powered by Gemini
@@ -141,6 +147,8 @@ Modern elections have a serious usability problem:
 
 ## 🤖 AI Capabilities
 
+---
+
 | Feature | Description |
 |---|---|
 | **Myth-Buster Engine** | Real-time Q&A powered by Gemini 2.0 Flash with civic-specific system instructions |
@@ -151,6 +159,8 @@ Modern elections have a serious usability problem:
 ---
 
 ## 🗳️ Platform Features
+
+---
 
 ### 🏠 Landing Page
 - Hero section with animated call-to-action
@@ -227,10 +237,14 @@ Modern elections have a serious usability problem:
 
 ---
 
-
 ## 🏗️ Tech Stack
 
+---
+
+
 ### Frontend
+
+
 | Technology | Purpose |
 |---|---|
 | [React 19](https://react.dev) | UI component library |
@@ -240,14 +254,20 @@ Modern elections have a serious usability problem:
 | [Recharts](https://recharts.org) | Data visualization (Bar, Line, Pie charts) |
 | [Lucide React](https://lucide.dev) | 50+ icon components |
 
+
 ### Backend
+
+
 | Technology | Purpose |
 |---|---|
 | [Express.js](https://expressjs.com) | HTTP server with API routes |
 | [tsx](https://github.com/privatenumber/tsx) | TypeScript execution for Node.js |
 | [Vite](https://vite.dev) | Build tooling, HMR, and dev server middleware |
 
+
 ### Cloud & AI
+
+
 | Technology | Purpose |
 |---|---|
 | [Firebase Auth](https://firebase.google.com/products/auth) | Google Sign-In authentication |
@@ -255,7 +275,10 @@ Modern elections have a serious usability problem:
 | [Google Gemini 2.0 Flash](https://ai.google.dev) | AI-powered Myth-Buster engine |
 | [Google Cloud Run](https://cloud.google.com/run) | Serverless container deployment |
 
+
 ### DevOps
+
+
 | Technology | Purpose |
 |---|---|
 | [Docker](https://docker.com) | Multi-stage containerization |
@@ -266,13 +289,21 @@ Modern elections have a serious usability problem:
 
 ## 🎨 Design System
 
+---
+
+
 ### Typography
+
+
 | Font | Usage |
 |---|---|
 | **Inter** (400–700) | Body text, UI elements, navigation |
 | **Playfair Display** (700) | Headings, hero sections, display text |
 
+
 ### Color Palette
+
+
 | Token | Hex | Usage |
 |---|---|---|
 | `surface` | `#F8FAFC` | Page background |
@@ -283,7 +314,9 @@ Modern elections have a serious usability problem:
 | `amber-custom` | `#92400E` | Warning states, pending items |
 | `error-custom` | `#B91C1C` | Error states, destructive actions |
 
+
 ### Custom Utilities
+
 `btn-primary` · `btn-outline` · `card` · `card-hover` · `nav-link` · `nav-cta` · `hero-eyebrow` · `summary-card` · `dot-pattern`
 
 ---
@@ -341,6 +374,8 @@ CivicTrust/
 
 ## 🔄 Application Workflow
 
+---
+
 ```mermaid
 flowchart TD
     A[🌐 Landing Page] --> B{Returning User?}
@@ -374,6 +409,8 @@ flowchart TD
 ---
 
 ## 🔥 Firestore Data Model
+
+---
 
 ```mermaid
 erDiagram
@@ -413,7 +450,10 @@ erDiagram
     TIMELINE ||--o{ USERS : "viewed by"
 ```
 
+
 ### Security Rules
+
+
 - **Default deny** — All paths blocked unless explicitly allowed
 - **Owner-only access** — Users can only read/write their own profile and steps
 - **Schema validation** — Firestore rules enforce field types, sizes, and allowed values
@@ -424,6 +464,8 @@ erDiagram
 
 ## 🔌 API Endpoints
 
+---
+
 ### Server Routes
 
 | Method | Endpoint | Description | Auth |
@@ -431,7 +473,9 @@ erDiagram
 | `GET` | `/api/health` | Health check with timestamp | ❌ None |
 | `GET` | `/*` | SPA fallback (serves `index.html`) | ❌ None |
 
+
 ### Firestore Service Layer
+
 
 | Function | Path | Description |
 |---|---|---|
@@ -442,7 +486,9 @@ erDiagram
 | `updateStepStatus(uid, stepId, status)` | `users/{uid}/steps/{stepId}` | Toggle step + award 50 points |
 | `askMythBuster(question)` | Gemini API | AI-powered election Q&A |
 
+
 ### Firebase Auth
+
 
 | Method | Description |
 |---|---|
@@ -453,6 +499,8 @@ erDiagram
 ---
 
 ## 🚀 Getting Started
+
+---
 
 ### Prerequisites
 
@@ -481,7 +529,9 @@ npm run dev
 
 The app will be available at **http://localhost:3000**
 
+
 ### Environment Variables
+
 
 Create a `.env` file in the project root:
 
@@ -493,7 +543,9 @@ GEMINI_API_KEY="your-gemini-api-key"
 APP_URL="http://localhost:3000"
 ```
 
+
 ### Firebase Configuration
+
 
 Update `firebase-applet-config.json` with your Firebase project credentials:
 
@@ -513,6 +565,8 @@ Update `firebase-applet-config.json` with your Firebase project credentials:
 
 ## 📜 Available Scripts
 
+---
+
 ```bash
 npm run dev          # Start Express + Vite dev server (HMR enabled)
 npm run build        # Build production bundle via Vite
@@ -524,6 +578,8 @@ npm run clean        # Remove dist directory
 ---
 
 ## 🐳 Docker Deployment
+
+---
 
 ### Build & Run Locally
 
@@ -577,6 +633,8 @@ CMD ["npx", "tsx", "server.ts"]
 
 ## 🛡️ Security
 
+---
+
 | Layer | Implementation |
 |---|---|
 | **Authentication** | Firebase Auth with Google OAuth 2.0 |
@@ -590,6 +648,8 @@ CMD ["npx", "tsx", "server.ts"]
 
 ## 📱 Responsive Design
 
+---
+
 CivicTrust is fully responsive across all breakpoints:
 
 | Breakpoint | Layout |
@@ -601,6 +661,8 @@ CivicTrust is fully responsive across all breakpoints:
 ---
 
 ## 🗺️ Roadmap
+
+---
 
 - [ ] **Progressive Web App (PWA)** — Offline access and push notifications
 - [ ] **Regional Language Support** — Hindi, Tamil, Telugu, Spanish translations
@@ -615,6 +677,8 @@ CivicTrust is fully responsive across all breakpoints:
 
 ## 🤝 Contributing
 
+---
+
 Contributions are welcome! Please follow these steps:
 
 1. **Fork** the repository
@@ -623,7 +687,9 @@ Contributions are welcome! Please follow these steps:
 4. **Push** to the branch (`git push origin feature/amazing-feature`)
 5. **Open** a Pull Request
 
+
 ### Contribution Guidelines
+
 
 - Follow the existing TypeScript and React patterns
 - Maintain the design system tokens (don't hardcode colors)
@@ -635,11 +701,15 @@ Contributions are welcome! Please follow these steps:
 
 ## 📄 License
 
+---
+
 This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
 
 ---
 
 ## 👨‍💻 Author
+
+---
 
 **Madhu Tiwari**
 
