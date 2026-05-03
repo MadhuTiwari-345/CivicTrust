@@ -44,15 +44,11 @@ It removes confusion, fights misinformation, and helps people **actually partici
 
 ## ⚡ Why CivicTrust
 
-🗳️ Personalized Voter Guide &nbsp;&nbsp;•&nbsp;&nbsp; 
-
-🛡️ ID Verification &nbsp;&nbsp;•&nbsp;&nbsp; 
-
-🤖 AI Myth-Buster &nbsp;&nbsp;•&nbsp;&nbsp; 
-
-📅 Election Timeline &nbsp;&nbsp;•&nbsp;&nbsp; 
-
-📊 Live Results Dashboard
+🗳️ Personalized Voter Guide &nbsp;&nbsp;
+•&nbsp;&nbsp; 🛡️ ID Verification &nbsp;&nbsp;
+•&nbsp;&nbsp; 🤖 AI Myth-Buster &nbsp;&nbsp;
+•&nbsp;&nbsp; 📅 Election Timeline &nbsp;&nbsp;
+•&nbsp;&nbsp; 📊 Live Results Dashboard
 
 ---
 
