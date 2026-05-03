@@ -1,0 +1,81 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // 0. Default Deny All
+    match /{document=**} {
+      allow read, write: if false;
+    }
+
+    // --- Helpers ---
+    function isSignedIn() {
+      return request.auth != null;
+    }
+
+    function isOwner(userId) {
+      return isSignedIn() && request.auth.uid == userId;
+    }
+
+    function isValidId(id) {
+      return id is string && id.size() <= 128 && id.matches('^[a-zA-Z0-9_\\-]+$');
+    }
+
+    function incoming() {
+      return request.resource.data;
+    }
+
+    function existing() {
+      return resource.data;
+    }
+
+    // --- User Validation ---
+    function isValidUser(data) {
+      return data.keys().hasAll(['uid', 'email', 'name', 'points', 'onboardingComplete']) &&
+             data.uid == request.auth.uid &&
+             data.email is string && data.email.size() <= 256 &&
+             data.name is string && data.name.size() <= 128 &&
+             data.points is number &&
+             data.onboardingComplete is bool &&
+             // Optional fields from onboarding
+             (!('country' in data) || (data.country in ['US', 'India'])) &&
+             (!('location' in data) || (data.location is string && data.location.size() <= 256)) &&
+             (!('isFirstTime' in data) || (data.isFirstTime is bool)) &&
+             (!('ageRange' in data) || (data.ageRange is string && data.ageRange.size() <= 32));
+    }
+
+    match /users/{userId} {
+      allow get: if isOwner(userId);
+      allow create: if isOwner(userId) && isValidUser(incoming());
+      
+      // Loosened for stability during onboarding transitions
+      allow update: if isOwner(userId) && (
+        isValidUser(incoming()) || 
+        (incoming().diff(existing()).affectedKeys().hasOnly(['onboardingComplete', 'country', 'location', 'isFirstTime', 'ageRange']))
+      );
+
+      // --- User Steps ---
+      match /steps/{stepId} {
+        allow list: if isOwner(userId);
+        allow get: if isOwner(userId);
+        allow create: if isOwner(userId) && isValidStep(incoming());
+        allow update: if isOwner(userId) && (
+          isValidStep(incoming()) && 
+          incoming().diff(existing()).affectedKeys().hasOnly(['status'])
+        );
+
+        function isValidStep(data) {
+          return data.id is string && isValidId(data.id) &&
+                 data.title is string && data.title.size() <= 256 &&
+                 data.status in ['pending', 'completed'] &&
+                 data.order is number;
+        }
+      }
+    }
+
+    // --- Timeline (Public Read) ---
+    match /timeline/{eventId} {
+      allow get: if isValidId(eventId);
+      allow list: if true;
+    }
+  }
+}

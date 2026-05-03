@@ -1,0 +1,10 @@
+{
+  "name": "CivicTrust",
+  "description": "Your definitive guide to democracy. CivicTrust provides authoritative, personalized, and accessible election information to ensure every vote is informed and counted.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone",
+    "geolocation"
+  ],
+  "majorCapabilities": []
+}

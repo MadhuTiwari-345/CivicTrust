@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", ui-serif, Georgia, serif;
+
+  /* Civic Trust Palette - Professional & Trustworthy */
+  --color-surface: #F8FAFC;
+  --color-surface-low: #F1F5F9;
+  --color-surface-high: #E2E8F0;
+  
+  --color-on-surface: #0F172A; /* Deep Slate Ink */
+  --color-on-surface-dim: #475569;
+  
+  --color-indigo-custom: #1E293B; /* Navy Ink */
+  --color-indigo-light: #334155;
+  --color-indigo-accent: #2563EB; /* Professional accent blue */
+  --color-indigo-pale: #E0E7FF;
+  --color-indigo-xpale: #EEF2FF;
+
+  --color-amber-custom: #92400E;
+  --color-amber-pale: #FEF3C7;
+
+  --color-green-custom: #166534;
+  --color-green-pale: #DCFCE7;
+
+  --color-outline: #CBD5E1;
+  --color-outline-strong: #94A3B8;
+
+  --color-error-custom: #B91C1C;
+}
+
+@layer base {
+  body {
+    @apply bg-surface text-on-surface antialiased;
+  }
+}
+
+@utility card {
+  @apply bg-white border border-outline/50 rounded-[12px] p-8 shadow-sm transition-all duration-300;
+}
+
+@utility card-hover {
+  @apply hover:shadow-lg hover:border-indigo-accent/30 hover:-translate-y-0.5;
+}
+
+@utility nav-link {
+  @apply px-4 py-2 text-sm font-semibold text-on-surface-dim hover:text-indigo-accent transition-all;
+}
+
+@utility nav-link-active {
+  @apply text-indigo-accent font-bold;
+}
+
+@utility nav-cta {
+  @apply px-6 py-2.5 bg-indigo-custom text-white text-sm font-bold rounded-lg hover:bg-slate-800 shadow-sm active:scale-95 transition-all;
+}
+
+@utility btn-primary {
+  @apply px-8 py-3.5 bg-indigo-custom text-white font-bold rounded-lg hover:bg-slate-800 shadow-md active:scale-95 transition-all disabled:opacity-50 disabled:pointer-events-none;
+}
+
+@utility btn-outline {
+  @apply px-8 py-3.5 border border-outline-strong text-on-surface font-bold rounded-lg hover:bg-surface-low active:scale-95 transition-all disabled:opacity-50;
+}
+
+@utility hero-eyebrow {
+  @apply flex items-center gap-2 bg-indigo-xpale border border-indigo-pale px-3 py-1 rounded text-xs font-bold text-indigo-accent uppercase tracking-wider;
+}
+
+@utility summary-card {
+  @apply card p-6 bg-white border-outline/30 shadow-xs transition-all hover:shadow-md;
+}
+
+@utility dot-pattern {
+  @apply absolute inset-0 opacity-[0.03] bg-[radial-gradient(#000_1px,transparent_1px)] [background-size:20px_20px];
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.4s ease-out forwards;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
