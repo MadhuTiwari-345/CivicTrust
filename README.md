@@ -163,6 +163,9 @@ Modern elections have a serious usability problem:
 ---
 
 ### 🏠 Landing Page
+
+---
+
 - Hero section with animated call-to-action
 - Three-pillar value proposition (Verify → Practice → Track)
 - Google Sign-In / Guest onboarding flow
@@ -170,6 +173,9 @@ Modern elections have a serious usability problem:
 ---
 
 ### 📋 Onboarding Flow (7 Steps)
+
+---
+
 1. **Jurisdiction Selection** — India 🇮🇳 or United States 🇺🇸
 2. **Age Cohort** — 18-25 / 26-60 / 60+ (for targeted outreach)
 3. **Registration Status** — EPIC card (India) / Voter enrollment (US)
@@ -181,6 +187,9 @@ Modern elections have a serious usability problem:
 ---
 
 ### 📊 Dashboard
+
+---
+
 - **Voter Journey Widget** — Interactive checklist with progress tracking and point rewards
 - **Civic Score Card** — Gamified readiness score with level badges
 - **Representatives Panel** — Federal, State, and Local representatives for your district
@@ -191,6 +200,9 @@ Modern elections have a serious usability problem:
 ---
 
 ### 📅 Election Timeline
+
+---
+
 - Interactive timeline with federal, state, and local events
 - Color-coded event types (Deadlines, Voting Days, Informational)
 - Critical deadline indicators with countdown
@@ -200,6 +212,9 @@ Modern elections have a serious usability problem:
 ---
 
 ### 🤖 MythBuster (AI Chat)
+
+---
+
 - Gemini-powered conversational AI for election myths
 - Suggested starter questions
 - Real-time streaming responses
@@ -208,6 +223,9 @@ Modern elections have a serious usability problem:
 ---
 
 ### 🗳️ Ballot Simulation
+
+---
+
 - Practice ballot marking experience
 - EVM/VVPAT simulation for Indian voters
 - Sample candidate roster with party information
@@ -216,6 +234,9 @@ Modern elections have a serious usability problem:
 ---
 
 ### ❓ Help Center
+
+---
+
 - Searchable FAQ database
 - Country-specific help topics
 - Emergency election contacts
@@ -224,6 +245,9 @@ Modern elections have a serious usability problem:
 ---
 
 ### 📈 Results Dashboard
+
+---
+
 - Interactive charts (Bar, Line, Pie) powered by Recharts
 - Historical election data visualization
 - Constituency-wise breakdowns
@@ -232,6 +256,9 @@ Modern elections have a serious usability problem:
 ---
 
 ### 🛡️ Verification Flow
+
+---
+
 - **Manual ID Verification** — Enter Voter ID / PAN Card number
 - **DigiLocker Integration** (India) — Direct government database verification
 - **DMV Mobile Verification** (US) — State-issued ID validation
@@ -240,6 +267,9 @@ Modern elections have a serious usability problem:
 ---
 
 ### ⚙️ Settings Panel
+
+---
+
 - Profile management and data editing
 - Widget layout customization (drag-to-reorder dashboard)
 - Notification preferences (Push & Email)
@@ -250,6 +280,9 @@ Modern elections have a serious usability problem:
 ---
 
 ### 🔍 Global Search
+
+---
+
 - Instant search across all app screens and features
 - Keyboard shortcut support
 - Context-aware results with navigation
