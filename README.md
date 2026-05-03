@@ -167,6 +167,8 @@ Modern elections have a serious usability problem:
 - Three-pillar value proposition (Verify → Practice → Track)
 - Google Sign-In / Guest onboarding flow
 
+---
+
 ### 📋 Onboarding Flow (7 Steps)
 1. **Jurisdiction Selection** — India 🇮🇳 or United States 🇺🇸
 2. **Age Cohort** — 18-25 / 26-60 / 60+ (for targeted outreach)
@@ -176,6 +178,8 @@ Modern elections have a serious usability problem:
 6. **Civic Interests** — Environment, Education, Economy, Healthcare, Tech & AI, Civic Rights
 7. **Confirmation & Google Auth** — Secure profile creation
 
+---
+
 ### 📊 Dashboard
 - **Voter Journey Widget** — Interactive checklist with progress tracking and point rewards
 - **Civic Score Card** — Gamified readiness score with level badges
@@ -184,6 +188,8 @@ Modern elections have a serious usability problem:
 - **Smart Alerts** — Deadline notifications and registration reminders
 - **Quick Tools Grid** — One-tap access to MythBuster, Simulation, Timeline, Help Center, Results
 
+---
+
 ### 📅 Election Timeline
 - Interactive timeline with federal, state, and local events
 - Color-coded event types (Deadlines, Voting Days, Informational)
@@ -191,11 +197,15 @@ Modern elections have a serious usability problem:
 - Source attribution with official links
 - Filterable by jurisdiction level
 
+---
+
 ### 🤖 MythBuster (AI Chat)
 - Gemini-powered conversational AI for election myths
 - Suggested starter questions
 - Real-time streaming responses
 - Chat history persistence within session
+
+---
 
 ### 🗳️ Ballot Simulation
 - Practice ballot marking experience
@@ -203,11 +213,15 @@ Modern elections have a serious usability problem:
 - Sample candidate roster with party information
 - Vote confirmation flow
 
+---
+
 ### ❓ Help Center
 - Searchable FAQ database
 - Country-specific help topics
 - Emergency election contacts
 - Accessibility resources
+
+---
 
 ### 📈 Results Dashboard
 - Interactive charts (Bar, Line, Pie) powered by Recharts
@@ -215,11 +229,15 @@ Modern elections have a serious usability problem:
 - Constituency-wise breakdowns
 - Real-time result tracking interface
 
+---
+
 ### 🛡️ Verification Flow
 - **Manual ID Verification** — Enter Voter ID / PAN Card number
 - **DigiLocker Integration** (India) — Direct government database verification
 - **DMV Mobile Verification** (US) — State-issued ID validation
 - Verification badge and timestamp on profile
+
+---
 
 ### ⚙️ Settings Panel
 - Profile management and data editing
@@ -228,6 +246,8 @@ Modern elections have a serious usability problem:
 - Language selection
 - Compact view toggle
 - Account data export / wipe
+
+---
 
 ### 🔍 Global Search
 - Instant search across all app screens and features
