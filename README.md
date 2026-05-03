@@ -771,12 +771,24 @@ This project is licensed under the **MIT License** — see the [LICENSE](LICENSE
 ---
 
 <p align="center">
+  <a href="https://civictrust-735054811257.us-central1.run.app">
+    <img src="https://img.shields.io/badge/🌐_Live_Demo-Open-2563EB?style=for-the-badge&logoColor=white"/>
+  </a>
+  <a href="#-getting-started">
+    <img src="https://img.shields.io/badge/🚀_Getting_Started-Guide-2563EB?style=for-the-badge&logoColor=white"/>
+  </a>
+  <a href="#-api-endpoints">
+    <img src="https://img.shields.io/badge/📡_API-Docs-2563EB?style=for-the-badge&logoColor=white"/>
+  </a>
+  <a href="#-contributing">
+    <img src="https://img.shields.io/badge/🤝_Contributing-Open-2563EB?style=for-the-badge&logoColor=white"/>
+  </a>
+</p>
+
+---
+
+<p align="center">
   <strong>🗳️ Democracy works best when every citizen is prepared. CivicTrust makes that possible. 🗳️</strong>
 </p>
 
-<p align="center">
-  <a href="https://civictrust-735054811257.us-central1.run.app">Live Demo</a> •
-  <a href="#-getting-started">Getting Started</a> •
-  <a href="#-api-endpoints">API Reference</a> •
-  <a href="#-contributing">Contributing</a>
-</p>
+---
